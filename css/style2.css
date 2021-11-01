@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* ====↓共通部分↓==== */
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #1A1C26;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1A1C26;
+}
+
+a {
+  color: #a9afc3;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.container {
+
+  margin-left: 300px;
+  background-color: #1A1C26;
+}
+
+.wrapper {
+  max-width: 1100px;
+  padding: 80px 20px;
+  margin: auto;
+}
+
+.site-title {
+  width: 200px;
+  line-height: 1px;
+  margin-bottom: 30px;
+}
+
+.site-title a {
+  display: block;
+}
+
+.sec-title {
+  font-size: 40px;
+  font-weight: 900;
+  color: #1A1C26;
+  padding-bottom: 50px;
+}
+
+.sec-detail {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.content {
+  width: 95%;
+  margin: auto;
+}
+
+.content-title {
+  padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.content-detail {
+  padding-left: 10px;
+}
+
+/* ====↑共通部分↑==== */
+
+/* ====↓header↓==== */
+
+#header {
+  width: 300px;
+  height: 100%;
+  background-color: black;
+  padding: 40px 50px 30px 45px;
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+}
+
+#navi {
+  width: 100%;
+  padding: 60px 10px;
+}
+
+#navi li {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#navi li a {
+  display: block;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 10px 45px;
+  transition: 0.5s all;
+  position: relative;
+}
+
+.material-icons {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+#navi li a:hover {
+  background-color: aqua;
+}
+
+/* ====↑header↑==== */
+
+/* ====↓main↓==== */
+/* ====↓pricing↓==== */
+
+#price {
+  width: 90%;
+  background-color: white;
+  margin: 100px auto 100px auto;
+  padding: 0 30px;
+  border-radius: 6px;
+}
+
+#price dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#price dt {
+  width: 65%;
+  margin-bottom: 50px;
+  font-size: 22px;
+  border-bottom: 2px solid rgb(200, 200, 200, 0.5)
+}
+
+#price dd {
+  width: 35%;
+  font-size: 22px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid rgb(200, 200, 200, 0.5)
+}
+
+/* ====↑pricing↑==== */
