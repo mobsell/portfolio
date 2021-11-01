@@ -1,0 +1,736 @@
+@charset "UTF-8";
+
+/* ====↓共通部分↓==== */
+body {
+  color: #a9afc3;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #a9afc3;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin-left: 300px;
+  background-color: #1A1C26;
+}
+
+.wrapper {
+  max-width: 1100px;
+  padding: 80px 20px;
+  margin: auto;
+}
+
+.site-title {
+  display: block;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.site-title a {
+  display: block;
+}
+
+.sec-title {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.sec-detail {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.content {
+  width: 95%;
+  margin: auto;
+}
+
+.content-title {
+  padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.content-detail {
+  padding-left: 10px;
+}
+
+/* ====↑共通部分↑==== */
+/* ====↓header↓==== */
+
+#header {
+  width: 300px;
+  height: 100%;
+  background-color: black;
+  padding: 40px 50px 30px 45px;
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+#header .hamburger-hidden {
+  display: none;
+}
+
+#navi {
+  width: 100%;
+  padding: 60px 10px;
+}
+
+#navi li {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#navi li a {
+  display: block;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 10px 45px;
+  transition: 0.5s all;
+  position: relative;
+}
+
+.material-icons {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+#navi li a:hover {
+  background-color: aqua;
+}
+
+/* ====↑header↑==== */
+
+/* ====↓main↓==== */
+/* ====↓home↓==== */
+#home {
+  width: 100%;
+  margin: auto;
+}
+
+#home .profile {
+  width: 70%;
+  margin:auto;
+  text-align: center;
+}
+
+#home .prof-pic {
+  width: 250px;
+  border-radius: 6px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+#home .prof-name {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+/* ====↑home↑==== */
+/* ====↓about↓==== */
+#about {
+  width: 100%;
+  margin: auto;
+  background-color: #111319;
+}
+
+#about .content-detail {
+  padding-bottom: 30px;
+}
+
+#about .content-detail:last-child {
+  padding-bottom: 0;
+}
+
+#about .vision {
+  width: 100%;
+  border: 3px outset #2c2d31;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+#about .skill {
+  border: 3px outset #2c2d31;
+  padding: 40px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+#about .skillbar-container {
+  margin-bottom: 20px;
+}
+
+#about .skill .skillbar-all {
+  width: 90%;
+  margin: auto;
+  height: 30px;
+  background-color: rgb(130, 130, 130, 0.5);
+  position: relative;
+  z-index: 1;
+  border-radius: 6px;
+}
+
+#about .skill .skillgage-sixty {
+  width: 60%;
+  background-color: white;
+  height: 30px;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about .skill .skillgage-fifty {
+  width: 50%;
+  background-color: white;
+  height: 30px;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about .skill .skillgage-twenty {
+  width: 20%;
+  background-color: white;
+  height: 30px;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about .skill .skill-name {
+  color: black;
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#about .skill .skill-rate {
+  display :block;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+#about .skill .skill-text {
+  display: block;
+  padding: 5px 0 0 50px;
+}
+
+#about .past {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .career {
+  border: 3px outset #2c2d31;
+  padding: 40px;
+  width: 49%;
+  border-radius: 8px;
+}
+
+#about .extra .content-detail {
+  display: flex;
+}
+
+#about .extra {
+  border: 3px outset #2c2d31;
+  padding: 40px;
+  width: 49%;
+  border-radius: 8px;
+}
+
+#about .extra dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .extra dt {
+  width: 25%;
+}
+
+#about .extra dd {
+  width: 75%;
+}
+
+/* ====↑about↑==== */
+/* ====↓work↓==== */
+
+#work {
+  background-color: #1A1C26;
+}
+
+#work .works {
+  display: flex;
+} 
+
+#work .workkind {
+  width: 49%;
+  height: 250px;
+  background-color: black;
+  border: 3px outset #2c2d31;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+#work .workkind:nth-child(2) {
+  margin-left: 10px;
+}
+
+#work .to-price {
+  display: block;
+  text-align: right;
+  padding-right: 20px;
+}
+
+#work .to-price a {
+  color: rgb(35, 129, 216);
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+#work .to-price a:hover {
+  color: red;
+}
+
+/* ====↑work↑==== */
+/* ====↓policy↓==== */
+
+#policy {
+  background-color: black;
+}
+
+#policy .style {
+  border: 3px outset #2c2d31;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+/* ====↑policy↑==== */
+/* ====↓portfolio↓==== */
+
+#portfolio .outputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+#portfolio .output {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+}
+
+#portfolio .scroll-pic {
+  height: 250px;
+  overflow-y: auto;
+}
+
+#portfolio .portfolio-pic {
+  width: 100%;
+}
+
+#portfolio .content-title {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* ====↑portfolio↑==== */
+/* ====↓contact↓==== */
+#contact {
+  width: 100%;
+  background-color: black;
+}
+
+#contact .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .contact-kind {
+  width: 33%;
+  border: 3px outset #2c2d31;
+  padding: 40px;
+  border-radius: 8px;
+  justify-content: space-between;
+  position: relative;
+}
+
+#contact .material-icons {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  display: block;
+  background-color: rgb(130, 130, 130, 0.5);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#contact .contact-title {
+  font-size: 0.9em;
+  margin-left: 70px;
+}
+
+#contact .contact-detail {
+  font-size: 0.75em;
+  margin-left: 70px;
+}
+/* ====↑contact↑==== */
+
+/* ~~~~~レスポンシブデザイン~~~~~ */
+@media screen and (max-width: 960px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  #header {
+    width: 100%;
+    height: 60px;
+    padding: 15px 15px;
+    overflow-y: visible;
+  }
+
+  #header .site-title {
+    width: 120px;
+    margin-bottom: 0;
+  }
+
+  #header #navi {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 100%;
+    z-index: 100;
+    transition: 0.5s all;
+    margin-top: 60px;
+    opacity: 1;
+  }
+
+  #header #hamburger-check:checked ~ #navi {
+    right: 0;
+  }
+  
+  #header .hamburger {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  #header .hamburger-open {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+  }
+
+  #header .hamburger-open span,
+  .hamburger-open span:before,
+  .hamburger-open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background: white;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#header .hamburger-open span:before {
+  bottom: 8px;
+}
+
+#header .hamburger-open span:after {
+  top: 8px;
+}
+
+#header #hamburger-check:checked ~ .hamburger-open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+#header #hamburger-check:checked ~ .hamburger-open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#header #hamburger-check:checked ~ .hamburger-open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+  .container {
+    width: 100%;
+    margin: auto;
+    background-color: #1A1C26;
+  }
+
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  .sec-title {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+  
+  .sec-detail {
+    padding-left: 18px;
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .content-title {
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .content-detail {
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+
+/* ====↓main↓==== */
+/* ====↓home↓==== */
+
+#home .profile {
+  width: 100%;
+  padding-top: 100px;
+}
+
+#home .prof-pic {
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+#home .prof-name {
+  font-size: 25px;
+  font-weight: 700;
+}
+/* ====↑home↑==== */
+/* ====↓about↓==== */
+
+#about .content-detail {
+  padding-bottom: 5px;
+}
+
+#about .vision {
+  border: 1px outset #2c2d31;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#about .past {
+  flex-wrap: wrap;
+}
+
+#about .career {
+  border: 1px outset #2c2d31;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#about .past-right {
+  width: 100%;
+}
+
+#about .skill {
+  border: 1px outset #2c2d31;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#about .skillbar-container {
+  margin-bottom: 10px;
+}
+
+#about .skill .skillbar-all {
+  width: 100%;
+  margin: auto;
+  height: 20px;
+  background-color: rgb(130, 130, 130, 0.5);
+  position: relative;
+  border-radius: 6px;
+}
+
+#about .skill .skillgage-sixty {
+  width: 60%;
+  height: 20px;
+}
+
+#about .skill .skillgage-fifty {
+  width: 50%;
+  height: 20px;
+}
+
+#about .skill .skillgage-twenty {
+  width: 20%;
+  height: 20px;
+}
+
+#about .skill .skill-name {
+  color: black;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#about .skill .skill-rate {
+  display :block;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+#about .skill .skill-text {
+  display: block;
+  padding: 5px 0 0 10px;
+  font-size: 14px;
+}
+
+#about .extra {
+  border: 1px outset #2c2d31;
+  padding: 10px;
+  width: 100%;
+}
+/* ====↑about↑==== */
+/* ====↓work↓==== */
+#work .works {
+  flex-wrap: wrap;
+} 
+
+#work .workkind {
+  width: 100%;
+  height: 100%;
+  border: 1px outset #2c2d31;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#work .workkind:nth-child(2) {
+  margin: 0 auto;
+}
+
+#work .to-price {
+  display: block;
+  text-align: right;
+  padding: 5px 0 0 0;
+}
+
+#work .to-price a {
+  font-size: 16px;
+}
+/* ====↑work↑==== */
+/* ====↓policy↓==== */
+#policy .style {
+  border: 1px outset #2c2d31;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+/* ====↑policy↑==== */
+/* ====↓portfolio↓==== */
+#portfolio .outputs {
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+#portfolio .output {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#portfolio .scroll-pic {
+  height: 150px;
+  overflow-y: auto;
+}
+
+#portfolio .portfolio-pic {
+  width: 100%;
+}
+
+#portfolio .content-title {
+  padding-top: 10px;
+  font-size: 14px;
+}
+/* ====↑portfolio↑==== */
+/* ====↓contact↓==== */
+#contact .content {
+  flex-wrap: wrap;
+}
+
+#contact .contact-kind {
+  width: 100%;
+  border: 1px outset #2c2d31;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+#contact .material-icons {
+  position: absolute;
+  top: 12%;
+  left: 3%;
+  display: block;
+  padding: 10px;
+  border-radius: 50%;
+  overflow-y: auto;
+}
+
+#contact .contact-title {
+  font-size: 0.9em;
+  margin-left: 80px;
+}
+
+#contact .contact-detail {
+  font-size: 0.75em;
+  margin-left: 80px;
+}
+/* ====↑contact↑==== */
+
+}
